@@ -2,7 +2,7 @@
 using namespace std;
 void main() {
 	int size;
-	cout << "Enter size: ";
+	cout << "Enter no. of employees: ";
 	cin >> size;
 
 	int input;
@@ -11,7 +11,9 @@ void main() {
 	int index = 0;
 	emp_no[0] = -1; // :D (CODE HACKS EVERYWHERE)
 
+
 	for (int i = 0; i < size; i++) {
+		cout << "Enter employee number: ";
 		cin >> input;
 		for (int j = 0; j < i; j++) {
 			if (input != emp_no[j]) {
