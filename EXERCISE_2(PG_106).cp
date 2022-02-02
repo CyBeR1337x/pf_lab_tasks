@@ -4,7 +4,7 @@ using namespace std;
 void search(int[], int);
 
 void main() {
-    int arr[10] = {2, 4, 5, 8, 12, 15, 17, 21, 25, 58};
+    int arr[10] = {2, 4, 5, 8, 12, 15, 17, 21, 25, 28};
     int x;
     cout << "Enter number to be searched: ";
     cin >> x;
