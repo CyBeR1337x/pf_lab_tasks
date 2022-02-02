@@ -17,8 +17,8 @@ void main() {
 
 	int sum_obt_points = 0, sum_credit_hours = 0;
 	for (int i = 0; i < size; i++) {
-		sum_obt_points = obtained_quality_points[i];
-		sum_credit_hours = credit_hour[i];
+		sum_obt_points += obtained_quality_points[i];
+		sum_credit_hours += credit_hour[i];
 	}
 
 	float cgpa = sum_obt_points / sum_credit_hours;
