@@ -3,7 +3,7 @@ using namespace std;
 
 void main() {
 
-  int array[10];
+        int array[10];
 	cout << "Enter 10 values: ";
 	for (int i = 0; i < 10; i++)
 		cin >> array[i];
@@ -12,7 +12,7 @@ void main() {
 		int max = 0;
 		for (int j = 1; j <= i; j++)
 			if (array[max] < array[j])
-				array = j;
+				max = j;
 		int temp;
 		temp = array[max];
 		array[max] = array[i];
@@ -20,12 +20,10 @@ void main() {
 	}
 
 	cout << "Sorted List: [ ";
-	for (int i = 0; i < size; i++)
+	for (int i = 0; i < 10; i++)
 		cout << array[i] << " ";
 
 	cout << "]" << endl;
 
-
-	system("pause");
+        system("pause");
 }
-
