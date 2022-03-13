@@ -35,7 +35,7 @@ void main() {
 	
 	//To calculate Sum
 	for (int i = 1; i < 5; i++)
-		sum += *(inputs + 1);
+		sum += *(inputs + i);
 	
 	//To find Max
 	int max = *(inputs + 0);
